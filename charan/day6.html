@@ -1,25 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day5 Task</title>
+    <title>Day6 Task</title>
+    <style>
+        img,
+        video {
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px gray;
+            
+            
+        }
+        img,video:hover {
+             
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+            border: 2px dashed black;
+            border-radius: 10px;
+    }
+
+        hr {
+            border: 1px solid black;
+
+        }
+    </style>
 </head>
+
 <body>
     <section style="background-color: lightgray; text-align: center;padding: 10px;;font-size: 50px;">
         <div>
-            <h1>Welcome to Day5 Task</h1>
+            <h1>Welcome to Day6 Task</h1>
         </div>
     </section>
     <hr>
-     
-     <hr>   
-    <section style="background-color: lightblue;text-align:center; padding: 10px; " id="Tutorial">
-        
+    <section>
+        <div>
+            <nav
+                style="display: flex; justify-content: center; gap: 20px; font-size: 20px;background-color: lightgray; padding: 10px;">
+                <a href="#Audio">Audio</a> |
+                <a href="#Video">Video</a> |
+
+
+
+            </nav>
+        </div>
+    </section>
+    <hr>
+
+    <section style="background-color: white;text-align:center; padding: 10px; " id="Tutorial">
+
         <div>
             <h2>HTML Language</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4pHPwVPUHuUSUR9gbJtEQ7Du_PIt65BGJpX-BZo8IwA&s=10"
-               title="html" alt="html" width="500" height="300">
+                title="html" alt="html" width="500" height="300">
             <p>Learn about HTML links and how to create them.</p>
             <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">HTML Links</a><br>
             <audio controls>
@@ -31,7 +66,7 @@
         <div>
             <h2>Css Language</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmnlB1Hdk4Rdf0mprJb20fr_KY29oY9Zy4Vo0FB9D51w&s=10"
-               title="css" alt="css" width="500" height="300">
+                title="css" alt="css" width="500" height="300">
             <p>Learn about CSS and how to style HTML elements.</p>
             <a href="https://www.w3schools.com/css/" target="_blank">CSS Links</a><br>
             <audio controls autoplay>
@@ -50,17 +85,17 @@
                 <source src="./audio/js.mp3" type="audio/mpeg">
             </audio>
         </div>
-   
-    <hr>
 
-    
+        <hr>
+
+
         <div>
             <h2>Indian Head Cochu</h2>
             <img src="./gautam.jpg" title="indian head" alt="indian head" width="500" height="300">
             <p>Gautam Gambhir is a former Indian cricketer and a key player in the Indian cricket team. <br>He played a
                 crucial role in India's victories in the 2007 ICC World Twenty20 and the 2011 ICC Cricket World Cup.</p>
             <a href="https://en.wikipedia.org/wiki/Gautam_Gambhir" target="_blank">Gautam Gambhir</a><br>
-            <audio controls  loop>
+            <audio controls loop>
                 <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
             </audio>
         </div>
@@ -74,10 +109,10 @@
                 <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
             </audio>
         </div>
-  
-    <hr>
 
- 
+        <hr>
+
+
         <div>
             <h2>Nature Travel</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZ_l_xbcIHYjod_1wnn-XGHHBdJwafbDl-rqtTrTOfA&s=10"
@@ -100,45 +135,60 @@
             </audio>
         </div>
     </section>
-<hr>
+    <hr>
 
-    <section>
+    <section style="background-color: white;text-align:center; padding: 10px; " id="Video">
         <div>
-            <h2></h2>
+            <h2>Basic Video</h2>
+
             <video width="500" height="300" controls>
-                <source src="./video/vid.mp4" type="video/mp4">
-            </video>
+                <source src="./vedio/mscc.mp4" type="video/mp4">
+            </video><br>
+            <abbr title="HyperText Markup Language">Html</abbr> is a markup language for creating web pages.
         </div>
+        <hr>
         <div>
-            <h2></h2>
+            <h2>Autoplay</h2>
             <video width="500" height="300" controls autoplay>
-                <source src="./video/vid.mp4" type="video/mp4">
+                <source src="./vedio/scm.mp4" type="video/mp4">
             </video>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language used for describing the presentation of a document written in HTML.</p>
         </div>
+        <hr>
 
         <div>
-            <h2></h2>
+            <h2>Loop</h2>
             <video width="500" height="300" controls loop>
-                <source src="./video/vid.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
             </video>
+            <p>Loop video example.</p>
         </div>
+        <hr>
 
         <div>
-            <h2></h2>
+            <h2>Muted</h2>
             <video width="500" height="300" controls muted>
-                <source src="./video/vid.mp4" type="video/mp4">
+                <source src="https://samplelib.com/mp4/sample-15s.mp4" type="video/mp4">
             </video>
+            <p>Muted video example.</p>
         </div>
+        <hr>
 
 
 
         <div>
-            <h2></h2>
+            <h2>Poster</h2>
             <video width="500" height="300" controls poster="./gautam.jpg">
-                <source src="./video/vid.mp4" type="video/mp4">
+                <source src="./vedio/full.mp4" type="video/mp4">
             </video>
+            <p>Rohit Sharma is an Indian cricketer.</p>
         </div>
     </section>
+    <hr>
+    <footer style="background-color: lightgray; text-align: center;padding: 10px;font-size: 20px;">
+
+        <p>&copy; 2024 Day6 Task. All rights reserved.</p>
+    </footer>
 
 
 </body>
